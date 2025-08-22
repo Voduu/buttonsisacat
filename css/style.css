@@ -10,8 +10,6 @@ a {
 }
 
 body {
-    margin: 2rem auto;
-    max-width: 80%;
 }
 
 .nav {
@@ -21,6 +19,7 @@ body {
     justify-content: space-between;
     font-size: 2rem;
     font-family: 'Montserrat';
+    padding: 15px 50px;
 }
 
 .nav-links {
@@ -28,4 +27,37 @@ body {
     gap: 1rem;
     font-size: 1.5rem;
     font-weight: 300;
+    align-items: center;
+}
+
+.subscribe {
+    border: 2px solid tan;
+    padding:8px;
+}
+
+.subscribe:hover {
+    background-color: tan;
+}
+
+.hero-section {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    border: 1px solid black;
+    padding: 120px;
+}
+
+.hero-title {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.hero-text {
+    font-size: 2rem;
+    padding: 24px 0;
+}
+
+.hero-section button {
+    width: 75px;
 }
